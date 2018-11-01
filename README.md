@@ -33,6 +33,6 @@ so that your settings look like this:
 
 ```js
 {
-  "python.pythonPath": "< COPY CLIPBOARD CONTENT HERE >"
+  "python.pythonPath": "<COPY CLIPBOARD CONTENT HERE>"
 }
 ```
