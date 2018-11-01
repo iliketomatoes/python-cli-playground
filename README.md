@@ -2,7 +2,7 @@
 
 This project is meant to provide the developer with a simple and easy-to-use boilerplate for exercising and experimenting with the Python language.
 
-The developer can then launch and see the output of any exercise/experiment with a user-friendly CLI.
+The developer can launch any exercise/experiment and see the output with a user-friendly CLI.
 
 *At the beginning this project was meant to be used for the Google Developers' Machine Learning Crash Course but then I realized this could be used as a general purpose playground.*
 
@@ -35,8 +35,8 @@ As of today you can't pass any CLI parameter to the invoked function.
 
 | Command       | Description   |
 | ------------- |---------------|
-| `python main.py <integer>` | list all the functions available in *module_<integer>* |
-|`python main.py <integer> <function_name>`| invoke *function_name* from *module_<integer>* |
+| `python main.py <integer>` | list all the functions available in *module_\<integer\>* |
+|`python main.py <integer> <function_name>`| invoke *function_name* from *module_\<integer\>* |
 
 ## Pylint in Visual Studio Code
 
