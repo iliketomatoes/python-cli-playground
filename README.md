@@ -1,7 +1,15 @@
-# Machine Learning Crash Course
+# Python playground boilerplate
 
-This is the playground repo for the [Google Developers'
-Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course/)
+This project is meant to provide the developer with a simple and easy-to-use boilerplate for exercising and experimenting with the Python language.
+
+The developer can then launch and see the output of any exercise/experiment with a user-friendly CLI.
+
+*At the beginning this project was meant to be used for the Google Developers' Machine Learning Crash Course but then I realized this could be used as a general purpose playground.*
+
+~~# Machine Learning Crash Course~~
+
+~~This is the playground repo for the [Google Developers'
+Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course/)~~
 
 ## Requirements
 
@@ -16,9 +24,19 @@ Machine Learning Crash Course](https://developers.google.com/machine-learning/cr
 
 `pipenv shell`
 
-## Launch the app
+## Usage
 
-`python main.py`
+This playground makes the assumption that every exercise/experiment will be a Python function that lives inside a file whose name is in this format `module_<integer>.py`, which resides in the `exercises` folder.
+
+The name of the function can be arbitrary.
+As of today you can't pass any CLI parameter to the invoked function.
+
+## Available commands
+
+| Command       | Description   |
+| ------------- |---------------|
+| `python main.py <integer>` | list all the functions available in *module_<integer>* |
+|`python main.py <integer> <function_name>`| invoke *function_name* from *module_<integer>* |
 
 ## Pylint in Visual Studio Code
 
